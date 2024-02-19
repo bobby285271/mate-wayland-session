@@ -17,3 +17,8 @@ uninstall-local:
 	rm $(datadir)/doc/firedecor/firedecor.config
 	glib-compile-schemas $(datadir)/glib-2.0/schemas
 
+EXTRA_DIST = \
+	meson.build \
+	10_mate-wayland.gschema.override \
+	firedecor.config
+

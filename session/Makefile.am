@@ -13,3 +13,10 @@ uninstall-local:
 	rm  $(bindir)/mate-wayland-components.sh
 	rm  $(datadir)/wayland-sessions/MATE.desktop
 
+EXTRA_DIST = \
+	mate-wayland.sh \
+	MATE.desktop \
+	mate-wayland.sh \
+	mate-wayland-components.sh \
+	meson.build
+

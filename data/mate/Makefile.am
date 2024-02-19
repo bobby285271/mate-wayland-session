@@ -23,4 +23,15 @@ uninstall-local:
 	rm  $(datadir)/firedecor/button-styles/mate/toggle-maximize-hovered.png
 	rm  $(datadir)/firedecor/button-styles/mate/toggle-maximize-pressed.png
 
+EXTRA_DIST = \
+	close.png \
+	close-hovered.png  \
+	close-pressed.png  \
+	meson.build  \
+	minimize.png  \
+	minimize-hovered.png  \
+	minimize-pressed.png  \
+	toggle-maximize.png  \
+	toggle-maximize-hovered.png \
+	toggle-maximize-pressed.png
 
